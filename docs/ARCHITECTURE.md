@@ -8,6 +8,7 @@ dist/
   style.css     响应式样式
   app.js        筛选、比较、编辑与 CSV 导出
   data.js       机构目录及来源链接
+  rss.xml       Atlas 网站更新订阅源
 server.mjs      本地静态文件服务器
 ```
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>经纬 · 欧美智库目录</title>
+    <link>https://gityx4029.github.io/think-tank-atlas/</link>
+    <description>欧美代表性智库目录的数据、来源与功能更新。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 20 Sep 2026 06:25:00 GMT</lastBuildDate>
+    <atom:link href="https://gityx4029.github.io/think-tank-atlas/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atlas RSS 订阅入口已上线</title>
+      <link>https://gityx4029.github.io/think-tank-atlas/</link>
+      <guid isPermaLink="false">think-tank-atlas-rss-20260920</guid>
+      <pubDate>Sat, 20 Sep 2026 06:25:00 GMT</pubDate>
+      <description>首页增加机构 RSS 订阅说明，页底提供 Atlas 本站 RSS 订阅入口。</description>
+    </item>
+  </channel>
+</rss>
