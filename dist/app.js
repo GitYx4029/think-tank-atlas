@@ -105,6 +105,7 @@ $('#reset').onclick=()=>{st={q:'',region:'全部',topics:new Set,roles:new Set,c
 $('#openCompare').onclick=compare;
 $('#about').onclick=()=>$('#method').showModal();
 $('#explore').onclick=()=>$('.work').scrollIntoView({behavior:'smooth'});
+$('#filterToggle').onclick=()=>{let work=$('.work'),open=work.classList.toggle('filters-open');$('#filterToggle').setAttribute('aria-expanded',String(open));$('#filterToggle').classList.toggle('open',open)};
 $('#csv').onclick=()=>{
   let h=['中文名','原文名','简称','国家','城市','机构类型','研究领域','功能角色','立场／研究风格','立场说明','立场依据','主要出资来源或资金结构','资金披露出处','RSS订阅','官网','机构来源'];
   let rows=shown.map(d=>[d.name,d.full,d.short,d.country,d.city,d.type,d.topics.join('；'),d.roles.join('；'),d.stance,d.stanceNote,d.stanceSource,d.funding,d.fundingSource,d.rss,d.website,d.source]);
