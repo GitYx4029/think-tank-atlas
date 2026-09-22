@@ -23,5 +23,5 @@ dialog{border:1px solid var(--l);border-radius:10px;max-width:760px;width:92%;pa
 }
 @media(min-width:620px) and (max-width:760px){#list{grid-template-columns:repeat(3,minmax(0,1fr))}.card{min-height:122px;padding:11px}.card h3{font-size:16px}}
 
-.abbr{color:var(--m);font-weight:500}.disclaimer,.feedback{max-width:760px;margin-top:10px;font-size:9px;line-height:1.7}.disclaimer{color:#77837a}.feedback a{color:#486d57;text-decoration:underline;text-underline-offset:2px}
-@media(max-width:760px){.disclaimer,.feedback{font-size:12px;line-height:1.75}}
+.abbr{color:var(--m);font-weight:500}.siteNotice{margin:14px 0 0;padding:11px 14px;border:1px solid #e1e8dd;border-radius:7px;background:#f0f5ed;color:#69796d}.siteNotice p{margin:0;font-size:12px;line-height:1.65}.siteNotice p+p{margin-top:5px}.siteNotice strong{color:#506455}.siteNotice a{color:#486d57;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:760px){.siteNotice{margin-top:10px;padding:10px 12px}.siteNotice p{font-size:12px;line-height:1.7}}
