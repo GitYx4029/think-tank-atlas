@@ -7,6 +7,11 @@ function itemCard(item){
   return `<article class="frontierCard"><div class="frontierMeta"><span>${esc(item.institute)}</span><time datetime="${esc(item.published_at)}">${esc(item.published_at)}</time></div><i class="frontierTheme">${esc(item.theme)}</i><h3>${esc(item.title)}</h3><p class="originalTitle">${esc(item.original_title)}</p><p>${esc(item.summary)}</p><div class="why"><b>为何值得关注</b><span>${esc(item.why_it_matters)}</span></div><a href="${esc(item.url)}" target="_blank" rel="noopener">查看官方原文 ↗</a></article>`;
 }
 
+function sourceCard(source){
+  const entries=(source.entries||[]).map(entry=>`<a class="sourceEntry" href="${esc(entry.url)}" target="_blank" rel="noopener" aria-label="打开 ${esc(source.short)} 的 ${esc(entry.label)} 页面">${esc(entry.label)} <span aria-hidden="true">↗</span></a>`).join('');
+  return `<article class="sourceCard"><b>${esc(source.name)}</b><span>${esc(source.short)}</span><small>${esc(source.focus)}</small><div class="sourceEntries">${entries}</div></article>`;
+}
+
 function render(){
   const items=feed.items||[];
   $('#themeFilters').innerHTML=themes.map(theme=>`<button class="${theme===active?'active':''}" data-theme="${theme}">${theme}</button>`).join('');
@@ -23,7 +28,7 @@ async function start(){
     $('#editionNote').textContent=feed.edition?.note||'';
     $('#sourceCount').firstChild.textContent=(feed.watchlist||[]).length||11;
     $('#signalList').innerHTML=(feed.process||[]).map((signal,index)=>`<article><small>0${index+1}</small><b>${esc(signal.title)}</b><p>${esc(signal.body)}</p></article>`).join('');
-    $('#watchlistItems').innerHTML=(feed.watchlist||[]).map(source=>`<a href="${esc(source.url)}" target="_blank" rel="noopener"><b>${esc(source.name)}</b><span>${esc(source.short)}</span><small>${esc(source.focus)}</small></a>`).join('');
+    $('#watchlistItems').innerHTML=(feed.watchlist||[]).map(sourceCard).join('');
     render();
   }catch(error){
     $('#editionTitle').textContent='暂时无法载入专题内容';

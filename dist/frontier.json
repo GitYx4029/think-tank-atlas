@@ -10,16 +10,16 @@
     {"title":"每期可追溯","body":"每条已发布内容保留原始标题、发布日期与官方链接，方便回到原文核对。"}
   ],
   "watchlist": [
-    {"name":"世界资源研究所","short":"WRI","focus":"气候、自然与数据","url":"https://www.wri.org/"},
-    {"name":"气候政策倡议组织","short":"CPI","focus":"气候金融与政策","url":"https://www.climatepolicyinitiative.org/"},
-    {"name":"格兰瑟姆气候变化与环境研究所","short":"Grantham","focus":"气候政策与经济","url":"https://www.lse.ac.uk/granthaminstitute/"},
-    {"name":"第三代环境主义","short":"E3G","focus":"气候外交与转型","url":"https://www.e3g.org/"},
-    {"name":"布鲁盖尔研究所","short":"Bruegel","focus":"欧洲经济与气候","url":"https://www.bruegel.org/"},
-    {"name":"欧洲政策研究中心","short":"CEPS","focus":"欧盟政策与绿色金融","url":"https://www.ceps.eu/"},
-    {"name":"国际可持续发展与国际关系研究所","short":"IDDRI","focus":"可持续发展与治理","url":"https://www.iddri.org/"},
-    {"name":"海外发展研究所","short":"ODI Global","focus":"发展、气候与公平","url":"https://odi.org/"},
-    {"name":"皇家国际事务研究所","short":"Chatham House","focus":"全球气候与地缘政治","url":"https://www.chathamhouse.org/"},
-    {"name":"战略与国际问题研究中心","short":"CSIS","focus":"能源、安全与技术","url":"https://www.csis.org/"},
-    {"name":"彼得森国际经济研究所","short":"PIIE","focus":"国际经济与绿色转型","url":"https://www.piie.com/"}
+    {"name":"世界资源研究所","short":"WRI","focus":"气候、自然与数据","entries":[{"label":"Climate","url":"https://www.wri.org/climate"},{"label":"Insights","url":"https://www.wri.org/insights"}]},
+    {"name":"气候政策倡议组织","short":"CPI","focus":"气候金融与政策","entries":[{"label":"Climate Finance","url":"https://www.climatepolicyinitiative.org/topics/climate-finance/"},{"label":"Climate Finance Tracking","url":"https://www.climatepolicyinitiative.org/the-programs/climate-finance-tracking/"}]},
+    {"name":"格兰瑟姆气候变化与环境研究所","short":"Grantham","focus":"气候政策与经济","entries":[{"label":"Research areas","url":"https://www.lse.ac.uk/granthaminstitute/research-areas/"},{"label":"Publications","url":"https://www.lse.ac.uk/granthaminstitute/publications/"}]},
+    {"name":"第三代环境主义","short":"E3G","focus":"气候外交与转型","entries":[{"label":"Latest","url":"https://www.e3g.org/latest/"},{"label":"Finance & Resilience","url":"https://www.e3g.org/our-work/finance-amp-resilience/"}]},
+    {"name":"布鲁盖尔研究所","short":"Bruegel","focus":"欧洲经济与气候","entries":[{"label":"Energy and climate policy","url":"https://www.bruegel.org/topics/energy-and-climate-policy"},{"label":"Sustainable finance","url":"https://www.bruegel.org/keyword/sustainable-finance"}]},
+    {"name":"欧洲政策研究中心","short":"CEPS","focus":"欧盟政策与绿色金融","entries":[{"label":"Energy, climate change and the environment","url":"https://www.ceps.eu/ceps-topic/energy-climate-change-environment/"},{"label":"AI, digitalisation and innovation","url":"https://www.ceps.eu/ceps-topic/ai-digitalisation-innovation/"}]},
+    {"name":"国际可持续发展与国际关系研究所","short":"IDDRI","focus":"可持续发展与治理","entries":[{"label":"Climate","url":"https://www.iddri.org/en/publications-and-events/climate"},{"label":"Publications and Events","url":"https://www.iddri.org/en/publications-and-events"}]},
+    {"name":"海外发展研究所","short":"ODI Global","focus":"发展、气候与公平","entries":[{"label":"Environment","url":"https://odi.org/en/topics/environment/"},{"label":"Climate finance","url":"https://odi.org/en/topics/climate-finance/"}]},
+    {"name":"皇家国际事务研究所","short":"Chatham House","focus":"全球气候与地缘政治","entries":[{"label":"Environment","url":"https://www.chathamhouse.org/topics/environment"},{"label":"Environment and Society Centre","url":"https://www.chathamhouse.org/about-us/our-departments/environment-and-society-centre"}]},
+    {"name":"战略与国际问题研究中心","short":"CSIS","focus":"能源、安全与技术","entries":[{"label":"Energy Security and Climate Change Program — Analysis","url":"https://www.csis.org/programs/energy-security-and-climate-change-program/analysis"},{"label":"Energy and Sustainability","url":"https://www.csis.org/topics/energy-and-sustainability"}]},
+    {"name":"彼得森国际经济研究所","short":"PIIE","focus":"国际经济与绿色转型","entries":[{"label":"Climate Change and Environment","url":"https://www.piie.com/research/economic-issues/climate-change-and-environment"},{"label":"Energy","url":"https://www.piie.com/research/economic-issues/energy"}]}
   ]
 }

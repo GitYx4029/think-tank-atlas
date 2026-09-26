@@ -1,6 +1,6 @@
 # 研究入口登记表
 
-这是“气候与可持续前沿”的**唯一来源配置**。自动检索从这些官方专题页开始；它不再要求逐个浏览机构首页。所有候选条目仍须人工确认，才会发布到 `dist/frontier.json`。
+这是“气候与可持续前沿”的**唯一来源配置**。自动检索从这些官方专题页开始；它不再要求逐个浏览机构首页。每行的主入口与备用入口也会直接显示在专题页相应机构卡片下，文字即该入口的网页标题。所有候选条目仍须人工确认，才会发布到 `dist/frontier.json`。
 
 机器可读版本：[`data/research-entry-registry.json`](../data/research-entry-registry.json)。最后核验：2026-09-26。
 
@@ -12,7 +12,7 @@
 | E3G | [Latest](https://www.e3g.org/latest/) | [Finance & Resilience](https://www.e3g.org/our-work/finance-amp-resilience/) | 气候与能源、绿色金融 | 主入口的媒体引述必须剔除，只留 E3G 自署研究。 |
 | Bruegel | [Energy and climate policy](https://www.bruegel.org/topics/energy-and-climate-policy) | [Sustainable finance](https://www.bruegel.org/keyword/sustainable-finance) | 气候与能源、绿色金融 | 重点看欧洲能源、碳市场、产业政策；AI 为观察项。 |
 | CEPS | [Energy, climate change and the environment](https://www.ceps.eu/ceps-topic/energy-climate-change-environment/) | [AI, digitalisation and innovation](https://www.ceps.eu/ceps-topic/ai-digitalisation-innovation/) | 气候与能源、可持续发展、AI＋可持续 | 两入口交叉时优先；活动页不入选。 |
-| IDDRI | [Climate](https://www.iddri.org/en/publications-and-events/climate) | [Publications and events](https://www.iddri.org/en/publications-and-events) | 气候与能源、可持续发展、绿色金融 | 备用入口须按 Climate、Energy、Financing 等主题过滤。 |
+| IDDRI | [Climate](https://www.iddri.org/en/publications-and-events/climate) | [Publications and Events](https://www.iddri.org/en/publications-and-events) | 气候与能源、可持续发展、绿色金融 | 备用入口须按 Climate、Energy、Financing 等主题过滤。 |
 | ODI Global | [Environment](https://odi.org/en/topics/environment/) | [Climate finance](https://odi.org/en/topics/climate-finance/) | 气候与能源、可持续发展、绿色金融 | 侧重全球南方、发展融资、适应和公正转型。 |
 | Chatham House | [Environment](https://www.chathamhouse.org/topics/environment) | [Environment and Society Centre](https://www.chathamhouse.org/about-us/our-departments/environment-and-society-centre) | 气候与能源、可持续发展 | 媒体文章只能作线索，须回溯至原始研究。 |
 | CSIS | [Energy Security and Climate Change Program — Analysis](https://www.csis.org/programs/energy-security-and-climate-change-program/analysis) | [Energy and Sustainability](https://www.csis.org/topics/energy-and-sustainability) | 气候与能源、AI＋可持续 | 不再从 CSIS 首页泛搜；AI 只保留电网、数据中心、关键矿产等直接交叉内容。 |

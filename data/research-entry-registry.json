@@ -7,6 +7,10 @@
     "lookback_days": 7,
     "publication_policy": "仅人工确认后发布"
   },
+  "frontier_page": {
+    "render_entry_points": true,
+    "rendering_rule": "每家机构的两个 entry_points 以其 label 作为专题页机构卡片下的直达按钮文字。"
+  },
   "default_rules": {
     "include_types": ["报告", "工作论文", "政策简报", "研究文章", "数据与追踪工具", "有实质分析的评论"],
     "exclude": ["活动预告与回放", "招聘", "捐赠与机构公告", "仅媒体引述", "无实质研究内容的页面"],
@@ -86,7 +90,7 @@
       "priority": "核心",
       "entry_points": [
         {"role": "primary", "label": "Climate", "url": "https://www.iddri.org/en/publications-and-events/climate", "use": "气候政策、深度脱碳与国际谈判"},
-        {"role": "backup", "label": "Publications and events", "url": "https://www.iddri.org/en/publications-and-events", "use": "以主题 Climate、Energy、Financing developing economies 过滤"}
+        {"role": "backup", "label": "Publications and Events", "url": "https://www.iddri.org/en/publications-and-events", "use": "以主题 Climate、Energy、Financing developing economies 过滤"}
       ],
       "themes": ["气候与能源", "可持续发展", "绿色金融"],
       "source_notes": "优先 report、policy brief、scientific publication；第二入口必须按主题和内容类型过滤，活动不入选。"
