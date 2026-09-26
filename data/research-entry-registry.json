@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "title": "气候与可持续前沿：研究入口登记表",
+  "last_verified": "2026-09-26",
+  "scope": {
+    "themes": ["气候与能源", "可持续发展", "绿色金融", "AI＋可持续"],
+    "lookback_days": 7,
+    "publication_policy": "仅人工确认后发布"
+  },
+  "default_rules": {
+    "include_types": ["报告", "工作论文", "政策简报", "研究文章", "数据与追踪工具", "有实质分析的评论"],
+    "exclude": ["活动预告与回放", "招聘", "捐赠与机构公告", "仅媒体引述", "无实质研究内容的页面"],
+    "deduplicate_by": "canonical_url",
+    "ai_sustainability_gate": "必须同时出现 AI/人工智能/算法/数据中心/数字基础设施之一，以及气候、能源、环境、可持续或绿色金融之一；否则不纳入。"
+  },
+  "entries": [
+    {
+      "id": "wri",
+      "institution": "世界资源研究所（WRI）",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Climate", "url": "https://www.wri.org/climate", "use": "气候行动、能源转型、适应与政策"},
+        {"role": "backup", "label": "Insights", "url": "https://www.wri.org/insights", "use": "补充最新研究文章；须过主题词筛选"}
+      ],
+      "themes": ["气候与能源", "可持续发展", "绿色金融", "AI＋可持续（观察）"],
+      "source_notes": "优先报告、工作论文、数据产品；AI 条目只保留与电力系统、气候数据或自然资本直接相关者。"
+    },
+    {
+      "id": "cpi",
+      "institution": "Climate Policy Initiative（CPI）",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Climate Finance", "url": "https://www.climatepolicyinitiative.org/topics/climate-finance/", "use": "气候投融资、政策工具与市场研究"},
+        {"role": "backup", "label": "Climate Finance Tracking", "url": "https://www.climatepolicyinitiative.org/the-programs/climate-finance-tracking/", "use": "全球气候资金流与追踪项目"}
+      ],
+      "themes": ["绿色金融", "气候与能源", "可持续发展"],
+      "source_notes": "以全球气候资金流、转型金融、公共与私人资本动员为优先；数据更新可作为“信号”而非单篇候选稿。"
+    },
+    {
+      "id": "grantham",
+      "institution": "LSE Grantham Research Institute",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Research areas", "url": "https://www.lse.ac.uk/granthaminstitute/research-areas/", "use": "气候经济、治理、适应与可持续金融的专题总入口"},
+        {"role": "backup", "label": "Publications", "url": "https://www.lse.ac.uk/granthaminstitute/publications/", "use": "新报告、政策简报与论文"}
+      ],
+      "themes": ["气候与能源", "可持续发展", "绿色金融"],
+      "source_notes": "优先气候经济学、转型风险、适应与公私可持续金融；不把活动消息纳入候选。"
+    },
+    {
+      "id": "e3g",
+      "institution": "E3G",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Latest", "url": "https://www.e3g.org/latest/", "use": "按日期发现新报告、简报与分析"},
+        {"role": "backup", "label": "Finance & Resilience", "url": "https://www.e3g.org/our-work/finance-amp-resilience/", "use": "气候投融资、韧性与国际金融机制"}
+      ],
+      "themes": ["气候与能源", "绿色金融", "可持续发展"],
+      "source_notes": "主入口含媒体引述，自动阶段须剔除；优先 E3G 自署报告、briefing 与分析。能源条目以转型、清洁电力和产业政策为主。"
+    },
+    {
+      "id": "bruegel",
+      "institution": "Bruegel",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Energy and climate policy", "url": "https://www.bruegel.org/topics/energy-and-climate-policy", "use": "欧洲能源、气候与产业政策"},
+        {"role": "backup", "label": "Sustainable finance", "url": "https://www.bruegel.org/keyword/sustainable-finance", "use": "可持续金融、资本市场与监管"}
+      ],
+      "themes": ["气候与能源", "绿色金融", "AI＋可持续（观察）"],
+      "source_notes": "重点是欧盟政策、能源市场、碳价与绿色产业；AI 仅在数据中心、电力需求或绿色监管直接相关时纳入。"
+    },
+    {
+      "id": "ceps",
+      "institution": "CEPS",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Energy, climate change and the environment", "url": "https://www.ceps.eu/ceps-topic/energy-climate-change-environment/", "use": "能源转型、循环经济、减排与原材料"},
+        {"role": "backup", "label": "AI, digitalisation and innovation", "url": "https://www.ceps.eu/ceps-topic/ai-digitalisation-innovation/", "use": "为 AI＋可持续交叉检索提供补充入口"}
+      ],
+      "themes": ["气候与能源", "可持续发展", "绿色金融", "AI＋可持续（观察）"],
+      "source_notes": "两个入口交叉时优先；排除所有活动页，仅保留 CEPS Publication、In Brief、Task Force 的实质产出。"
+    },
+    {
+      "id": "iddri",
+      "institution": "IDDRI",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Climate", "url": "https://www.iddri.org/en/publications-and-events/climate", "use": "气候政策、深度脱碳与国际谈判"},
+        {"role": "backup", "label": "Publications and events", "url": "https://www.iddri.org/en/publications-and-events", "use": "以主题 Climate、Energy、Financing developing economies 过滤"}
+      ],
+      "themes": ["气候与能源", "可持续发展", "绿色金融"],
+      "source_notes": "优先 report、policy brief、scientific publication；第二入口必须按主题和内容类型过滤，活动不入选。"
+    },
+    {
+      "id": "odi",
+      "institution": "ODI Global",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Environment", "url": "https://odi.org/en/topics/environment/", "use": "气候与可持续发展研究总入口"},
+        {"role": "backup", "label": "Climate finance", "url": "https://odi.org/en/topics/climate-finance/", "use": "气候资金、公私融资与发展议题"}
+      ],
+      "themes": ["气候与能源", "可持续发展", "绿色金融"],
+      "source_notes": "侧重全球南方、发展融资、适应与公正转型；按研究或分析类型收录。"
+    },
+    {
+      "id": "chatham_house",
+      "institution": "Chatham House",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Environment", "url": "https://www.chathamhouse.org/topics/environment", "use": "气候、自然资源与可持续增长的研究主题页"},
+        {"role": "backup", "label": "Environment and Society Centre", "url": "https://www.chathamhouse.org/about-us/our-departments/environment-and-society-centre", "use": "气候风险、治理与韧性研究项目"}
+      ],
+      "themes": ["气候与能源", "可持续发展", "绿色金融（观察）", "AI＋可持续（观察）"],
+      "source_notes": "优先研究报告、专家分析与政策简报；媒体文章只作为线索，须回溯到原始研究。"
+    },
+    {
+      "id": "csis",
+      "institution": "Center for Strategic and International Studies（CSIS）",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Energy Security and Climate Change Program — Analysis", "url": "https://www.csis.org/programs/energy-security-and-climate-change-program/analysis", "use": "直接获取该项目的研究分析"},
+        {"role": "backup", "label": "Energy and Sustainability", "url": "https://www.csis.org/topics/energy-and-sustainability", "use": "跨项目补充能源与可持续主题"}
+      ],
+      "themes": ["气候与能源", "AI＋可持续（观察）"],
+      "source_notes": "不从 CSIS 首页泛搜。AI 只保留数据中心负荷、AI 与电网、关键矿产或气候安全等直接交叉内容。"
+    },
+    {
+      "id": "piie",
+      "institution": "Peterson Institute for International Economics（PIIE）",
+      "priority": "核心",
+      "entry_points": [
+        {"role": "primary", "label": "Climate Change and Environment", "url": "https://www.piie.com/research/economic-issues/climate-change-and-environment", "use": "气候宏观经济、贸易、金融监管与绿色转型"},
+        {"role": "backup", "label": "Energy", "url": "https://www.piie.com/research/economic-issues/energy", "use": "能源经济与国际政策补充"}
+      ],
+      "themes": ["气候与能源", "绿色金融", "可持续发展（观察）"],
+      "source_notes": "优先 Working Paper、Policy Brief、研究性分析；关注碳边境调节、气候宏观经济和银行审慎监管。"
+    }
+  ]
+}

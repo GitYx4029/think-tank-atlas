@@ -2,6 +2,8 @@
 
 这个目录保存自动检索产生的候选稿，不会随 `dist/` 部署到公开网站。
 
+自动检索只从 [`docs/RESEARCH-ENTRY-REGISTRY.md`](../docs/RESEARCH-ENTRY-REGISTRY.md) 登记的官方专题入口开始，而不是逐个浏览机构首页。机器读取 `data/research-entry-registry.json` 的主入口、备用入口与筛选规则。
+
 ## 每周操作
 
 1. 自动任务生成过去 7 天的候选条目，并按 `draft-template.json` 的字段整理。
