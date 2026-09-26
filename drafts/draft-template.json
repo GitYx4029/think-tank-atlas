@@ -1,0 +1,20 @@
+{
+  "week": "YYYY-Www",
+  "status": "待人工确认",
+  "generated_at": "YYYY-MM-DD",
+  "sources_checked": [],
+  "items": [
+    {
+      "institute": "机构中文名",
+      "published_at": "YYYY-MM-DD",
+      "original_title": "Official title",
+      "title": "准确中文标题",
+      "theme": "气候与能源",
+      "summary": "80—120 字、严格依据原文的中文摘要。",
+      "why_it_matters": "该项研究为何值得关注。",
+      "url": "https://official-source.example"
+    }
+  ],
+  "key_signals": [],
+  "editor_decisions": []
+}
